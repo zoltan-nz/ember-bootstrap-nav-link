@@ -1,7 +1,7 @@
 {
   "name": "ember-bootstrap-nav-link",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Bootstrap 3 navigation link with proper active state management.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/szines/ember-bootstrap-nav-link",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 0.12.0"
   },
-  "author": "",
+  "author": "Zoltan",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -35,10 +35,16 @@
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
     "ember-disable-prototype-extensions": "^1.0.0",
-    "ember-try": "~0.0.8"
+    "ember-try": "~0.0.8",
+    "ember-cli-sass": "4.2.0",
+    "ember-cli-bootstrap-sassy": "0.0.18"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "bootstrap",
+    "navigation",
+    "link-to",
+    "ember-component"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
