@@ -1,26 +1,22 @@
 # Ember-bootstrap-nav-link
 
-This README outlines the details of collaborating on this Ember addon.
+* Insert Bootstrap 3 compatible link in navigation bars.
+* Compatible with Ember 2.1 or greater.
+
+Manage active state properly in bootstrap navigation bar.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-bootstrap-nav-link
+```
 
-## Running
+## Usage
 
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+```
+<ul class="nav navbar-nav">
+  {{#nav-link-to 'index'}}Home{{/nav-link-to}}
+  {{#nav-link-to 'about'}}About{{/nav-link-to}}
+  {{#nav-link-to 'contact'}}Contact{{/nav-link-to}}
+</ul>
+```

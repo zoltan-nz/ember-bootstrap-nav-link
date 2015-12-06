@@ -1,7 +1,11 @@
-import {LinkComponent, computed} from 'ember';
+import Ember from 'ember';
+import layout from '../templates/components/nav-link-to';
+
+const { LinkComponent, computed } = Ember;
 
 export default LinkComponent.extend({
   tagName: 'li',
+  layout: layout,
 
   hrefForA: computed('models', 'qualifiedRouteName', function computeLinkToComponentHref() {
     let qualifiedRouteName = this.get('qualifiedRouteName');

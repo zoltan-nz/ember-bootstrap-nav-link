@@ -1,7 +1,7 @@
 {
   "name": "ember-bootstrap-nav-link",
-  "version": "0.0.1",
-  "description": "Bootstrap 3 navigation link with proper active state management.",
+  "version": "0.0.2",
+  "description": "Bootstrap 3 navigation link with proper active state management. Compatible with Ember 2.1 or greater.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,10 @@
   "engines": {
     "node": ">= 0.12.0"
   },
-  "author": "Zoltan",
+  "author": {
+    "name": "Zoltan",
+    "email": "zdebre@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
@@ -32,12 +35,10 @@
     "ember-cli-sri": "^1.2.0",
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "1.13.15",
+    "ember-disable-prototype-extensions": "^1.0.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
-    "ember-disable-prototype-extensions": "^1.0.0",
-    "ember-try": "~0.0.8",
-    "ember-cli-sass": "4.2.0",
-    "ember-cli-bootstrap-sassy": "0.0.18"
+    "ember-try": "~0.0.8"
   },
   "keywords": [
     "ember-addon",
@@ -47,9 +48,11 @@
     "ember-component"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5"
+    "ember-cli-babel": "^5.1.5",
+    "ember-cli-htmlbars": "^1.0.1"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "defaultBlueprint": "nav-link-to"
   }
 }
