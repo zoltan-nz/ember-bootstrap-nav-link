@@ -23,9 +23,9 @@ test('it renders', function(assert) {
 
   assert.equal(this.$().text().trim(), 'Home');
 
-  this.render(hbs`{{#nav-link-to 'index' data-toggle='collapse' data-target='#navbar' }}Home{{/nav-link-to}}`);
+  this.render(hbs`{{#nav-link-to 'index' data-toggle='collapse' data-target='.navbar-collapse.in' }}Home{{/nav-link-to}}`);
 
   assert.equal(this.$('li').attr('data-toggle'),'collapse');
 
-  assert.equal(this.$('li').attr('data-target'),'#navbar');
+  assert.equal(this.$('li').attr('data-target'),'.navbar-collapse.in');
 });
