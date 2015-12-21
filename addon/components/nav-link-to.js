@@ -6,7 +6,8 @@ const { LinkComponent, computed } = Ember;
 export default LinkComponent.extend({
   tagName: 'li',
   layout: layout,
-
+  attributeBindings: ['data-toggle', 'data-target'],
+  
   hrefForA: computed('models', 'qualifiedRouteName', function computeLinkToComponentHref() {
     let qualifiedRouteName = this.get('qualifiedRouteName');
     let models = this.get('models');
