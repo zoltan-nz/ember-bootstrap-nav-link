@@ -1,6 +1,6 @@
 {
   "name": "ember-bootstrap-nav-link",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Bootstrap 3 navigation link with proper active state management. Compatible with Ember 2.1 or greater.",
   "directories": {
     "doc": "doc",
