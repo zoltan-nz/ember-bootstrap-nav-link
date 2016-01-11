@@ -17,8 +17,13 @@
   },
   "author": {
     "name": "Zoltan",
-    "email": "zdebre@gmail.com"
+    "email": "zdebre@gmail.com",
+    "url": "http://zoltan.nz"
   },
+  "contributors": [{
+    "name": "F. DeWayne Lane",
+    "url": "https://github.com/fdlane"
+  }],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
