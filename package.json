@@ -1,6 +1,6 @@
 {
   "name": "ember-bootstrap-nav-link",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bootstrap 3 navigation link with proper active state management. Compatible with Ember 2.1 or greater.",
   "directories": {
     "doc": "doc",
@@ -20,10 +20,12 @@
     "email": "zdebre@gmail.com",
     "url": "http://zoltan.nz"
   },
-  "contributors": [{
-    "name": "F. DeWayne Lane",
-    "url": "https://github.com/fdlane"
-  }],
+  "contributors": [
+    {
+      "name": "F. DeWayne Lane",
+      "url": "https://github.com/fdlane"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
