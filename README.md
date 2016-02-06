@@ -1,6 +1,6 @@
 # Ember-bootstrap-nav-link
 
-https://travis-ci.org/zoltan-nz/ember-bootstrap-nav-link.svg?branch=master
+[![Build Status](https://travis-ci.org/zoltan-nz/ember-bootstrap-nav-link.svg?branch=master)](https://travis-ci.org/zoltan-nz/ember-bootstrap-nav-link)
 
 * Insert Bootstrap 3 compatible link in navigation bars.
 * Compatible with Ember 2.1 or greater.
