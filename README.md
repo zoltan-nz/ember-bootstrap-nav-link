@@ -1,5 +1,7 @@
 # Ember-bootstrap-nav-link
 
+https://travis-ci.org/zoltan-nz/ember-bootstrap-nav-link.svg?branch=master
+
 * Insert Bootstrap 3 compatible link in navigation bars.
 * Compatible with Ember 2.1 or greater.
 * `data-toggle` and `data-target` attribute binding. (@fdlane)
