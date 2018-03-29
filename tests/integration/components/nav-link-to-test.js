@@ -6,15 +6,14 @@ moduleForComponent('nav-link-to', 'Integration | Component | nav link to', {
 });
 
 test('it renders', function(assert) {
-
   // Set any properties with this.set('myProperty', 'value');
-  // Handle any actions with this.on('myAction', function(val) { ... });" + EOL + EOL +
+  // Handle any actions with this.on('myAction', function(val) { ... });
 
   this.render(hbs`{{#nav-link-to 'index'}}Home{{/nav-link-to}}`);
 
   assert.equal(this.$().text().trim(), 'Home');
 
-  // Template block usage:" + EOL +
+  // Template block usage:
   this.render(hbs`
     {{#nav-link-to 'index'}}
       Home
