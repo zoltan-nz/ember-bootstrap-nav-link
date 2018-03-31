@@ -1,7 +1,6 @@
-import Ember from 'ember';
+import LinkComponent from '@ember/routing/link-component';
+import { computed } from '@ember/object';
 import layout from '../templates/components/nav-link-to';
-
-const { LinkComponent, computed } = Ember;
 
 export default LinkComponent.extend({
   tagName: 'li',
