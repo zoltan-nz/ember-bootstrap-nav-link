@@ -83,7 +83,11 @@ Contributing
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
+Learn more about this plugin in [Ember.js tutorial](http://yoember.com)
+
 License
 ------------------------------------------------------------------------------
 
 This project is licensed under the [MIT License](LICENSE.md).
+
+[Ember](http://yoember.com) | [Ember.js](http://yoember.com) | [Tutorial](http://yoember.com)
