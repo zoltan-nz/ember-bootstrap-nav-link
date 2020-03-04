@@ -32,9 +32,9 @@ Simple navbar:
 
 ```html
 <ul class="nav navbar-nav">
-  <NavLinkTo @route="index">Home{{/NavLinkTo}}
-  <NavLinkTo @route="about">About{{/NavLinkTo}}
-  <NavLinkTo @route="contact">Contact{{/NavLinkTo}}
+  <NavLinkTo @route="index">Home</NavLinkTo>
+  <NavLinkTo @route="about">About</NavLinkTo>
+  <NavLinkTo @route="contact">Contact</NavLinkTo>
 </ul>
 ```
 
